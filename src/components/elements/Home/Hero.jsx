@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="hero-section py-5 position-relative">
+    <div className="hero-section py-5">
       <div className="container">
         <div className="row">
           <div className="col-md-6 col-12">
@@ -13,8 +13,8 @@ const Hero = () => {
               </h1>
               <p className="text-center text-md-start fs-5">Polkadot unites and secures a growing ecosystem of specialized blockchains called parachains. Apps and services on Polkadot can securely communicate across chains, forming the basis for a truly interoperable decentralized web.</p>
               <div className="d-none d-md-block justify-content-center mt-2">
-                <a href="/" className="btn btn-subscribe btn-lg mx-2" style={{ color: '#e6007a' }}>Learn Parachains</a>
-                <a href="/" className="btn btn-subscribe btn-lg" style={{ color: '#e6007a' }}>Learn Cross-Chain</a>
+                <a href="/" className="btn btn-subscribe btn-lg mx-2 color-E6007A" >Learn Parachains</a>
+                <a href="/" className="btn btn-subscribe btn-lg color-E6007A">Learn Cross-Chain</a>
               </div>
             </div>
           </div>
@@ -26,11 +26,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <a href="/" target="_blank" class="fixedButton" >
-        <div className="roundedFixedBtn d-flex align-items-center justify-content-center">
-          <img class="logo" src="https://polkadot.network/assets/img/icons/support.svg?v=ea608e625d" width={30} alt="" />
-        </div>
-      </a>
     </div>
   );
 };

@@ -9,6 +9,7 @@ import Community from '../pages/Community';
 import About from '../pages/About';
 import Blog from '../pages/Blog';
 import Contact from '../pages/Contact';
+import Build from '../pages/Build';
 
 
 const Routs = () => {
@@ -23,6 +24,7 @@ const Routs = () => {
           <Route  path='/about' element={<About />}/>
           <Route  path='/blog' element={<Blog />}/>
           <Route  path='/contact' element={<Contact />}/>
+          <Route  path='/build' element={<Build />}/>
           <Route path='/*' element={<PageNotFound />}/>
         </Routes>
       </Base>
