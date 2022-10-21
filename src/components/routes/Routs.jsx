@@ -3,7 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Base from '../layout/Base';
 import Home from '../pages/Home';
+import Technology from '../pages/Technology';
 import PageNotFound from '../elements/PageNotFound';
+import Community from '../pages/Community';
+import About from '../pages/About';
+import Blog from '../pages/Blog';
+import Contact from '../pages/Contact';
 
 
 const Routs = () => {
@@ -13,6 +18,11 @@ const Routs = () => {
       <Base>
         <Routes>
           <Route index path='/' element={<Home />}/>
+          <Route  path='/technology' element={<Technology />}/>
+          <Route  path='/community' element={<Community />}/>
+          <Route  path='/about' element={<About />}/>
+          <Route  path='/blog' element={<Blog />}/>
+          <Route  path='/contact' element={<Contact />}/>
           <Route path='/*' element={<PageNotFound />}/>
         </Routes>
       </Base>

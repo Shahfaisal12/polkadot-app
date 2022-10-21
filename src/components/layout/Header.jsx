@@ -8,7 +8,7 @@ const Header = () => {
     <>
       <nav class="navbar navbar--secondary navbar-expand-lg navbar-light bg-white border-bottom">
         <div className="container">
-          <div className="navbar-collapse navMenu justify-content-between collapse show">
+          <div className="navbar-collapse justify-content-between collapse show">
             <div className="d-flex justify-content-end justify-content-lg-start pt-1 pt-md-0 order-2 order-lg-1">
               <div className="collapse navbar-collapse" id="navbarNavDarkDropdown">
                 <ul className="navbar-nav">
@@ -16,7 +16,7 @@ const Header = () => {
                     <a className="nav-link dropdown-toggle text-uppercase" href="/" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       en
                     </a>
-                    <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <ul className="dropdown-menu dropdown-menu-dark bg-white" aria-labelledby="navbarDarkDropdownMenuLink">
                       <li><a className="dropdown-item" href="/">español</a></li>
                       <li><a className="dropdown-item" href="/">中文</a></li>
                       <li><a className="dropdown-item" href="/">日本語</a></li>
@@ -71,38 +71,38 @@ const Header = () => {
           >
             <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link active"
                   aria-current="page"
-                  href="/"
+                  to='/technology'
                 >
                   Technology
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <Link className="nav-link" to="/community">
                   Community
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <Link className="nav-link" to="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/">
+                <Link className="nav-link" to="/blog">
                   Blog
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <Link className="nav-link" to="/build">
                   Build
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <Link className="nav-link" to="/contact">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
