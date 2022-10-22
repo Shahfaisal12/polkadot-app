@@ -57,6 +57,16 @@
     }
   }
 }
+
+@keyframes run {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
 .navbar-below ul {
   li {
     display: inline-block;
@@ -70,6 +80,9 @@
       height: 4px;
       border-radius: 50%;
       left:calc(50% - 8px);
+      animation: linear;
+  animation-name: run;
+  animation-duration: 0.5s;
   }
     a {
       padding: 0rem 1.3rem 0rem 1.3rem !important;
