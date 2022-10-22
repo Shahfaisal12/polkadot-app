@@ -2,7 +2,7 @@ import React from 'react'
 
 const Mission = () => {
     return (
-        <div class="about-missio-section py-3 py-md-5" style={{ backgroundColor: '#172026' }}>
+        <div class="about-missio-section py-3 py-md-5 bg-172026">
             <div class="container">
                 <div class="row justify-content-around">
                     <div class="col-sm-12 col-lg-5">

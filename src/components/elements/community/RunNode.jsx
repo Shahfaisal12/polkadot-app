@@ -2,7 +2,7 @@ import React from 'react'
 
 const AnyTypeBlock = () => {
     return (
-        <div className="any-typ-block py-5" style={{ backgroundColor: '#172026' }}>
+        <div className="any-typ-block py-5 bg-172026">
             <div className="container">
                 <div className="row justify-content-center py-4">
                     <div className="col-md-8">

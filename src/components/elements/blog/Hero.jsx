@@ -14,7 +14,7 @@ const Hero = () => {
                                 <img className="card-img-top" src="https://polkadot.network/content/images/2022/10/image1.png" height={150} alt="" />
                             </a>
                             <div className="card-body py-3">
-                                <a href="/" className="mb-2 d-block text-decoration-none" style={{ color: '#e6007a' }}>Parachain</a>
+                                <a href="/" className="mb-2 d-block text-decoration-none color-E6007">Parachain</a>
                                 <a href="/" className='text-decoration-none text-black'>
                                     <h5 className='fw-bold'>First Parachain Successfully Migrates from Kusama to Polkadot</h5>
                                 </a>
@@ -30,7 +30,7 @@ const Hero = () => {
                                 <img className="card-img-top" src="https://polkadot.network/content/images/2022/09/004-smol.png" height={150} alt="" />
                             </a>
                             <div className="card-body py-3">
-                                <a href="/" className="mb-2 d-block text-decoration-none" style={{ color: '#e6007a' }}>Polkadot</a>
+                                <a href="/" className="mb-2 d-block text-decoration-none color-E6007">Polkadot</a>
                                 <a href="/" className='text-decoration-none text-black'>
                                     <h5 className='fw-bold'>Polkadot Roadmap Roundup</h5>
                                 </a>
@@ -46,7 +46,7 @@ const Hero = () => {
                                 <img className="card-img-top" src="https://polkadot.network/content/images/2022/08/image1.jpg" height={150} alt="" />
                             </a>
                             <div className="card-body py-3">
-                                <a href="/" className="mb-2 d-block text-decoration-none" style={{ color: '#e6007a' }}>Polkadot</a>
+                                <a href="/" className="mb-2 d-block text-decoration-none color-E6007">Polkadot</a>
                                 <a href="/" className='text-decoration-none text-black'>
                                     <h5 className='fw-bold'>Sub0, the Polkadot Developer Conference, comes to Lisbon in November</h5>
                                 </a>
@@ -62,7 +62,7 @@ const Hero = () => {
                                 <img className="card-img-top" src="https://polkadot.network/content/images/2022/08/CGPs.png" height={150} alt="" />
                             </a>
                             <div className="card-body py-3">
-                                <a href="/" className="mb-2 d-block text-decoration-none" style={{ color: '#e6007a' }}>Polkadot</a>
+                                <a href="/" className="mb-2 d-block text-decoration-none color-E6007">Polkadot</a>
                                 <a href="/" className='text-decoration-none text-black'>
                                     <h5 className='fw-bold'>Proposal for Common Good Parachains</h5>
                                 </a>
@@ -78,7 +78,7 @@ const Hero = () => {
                                 <img className="card-img-top" src="https://polkadot.network/content/images/2022/07/Frame-4.png" height={150} alt="" />
                             </a>
                             <div className="card-body py-3">
-                                <a href="/" className="mb-2 d-block text-decoration-none" style={{ color: '#e6007a' }}>Polkadot</a>
+                                <a href="/" className="mb-2 d-block text-decoration-none color-E6007">Polkadot</a>
                                 <a href="/" className='text-decoration-none text-black'>
                                     <h5 className='fw-bold'>Gov2: Polkadot’s Next Generation of Decentralised Governance</h5>
                                 </a>
@@ -94,7 +94,7 @@ const Hero = () => {
                                 <img className="card-img-top" src="https://polkadot.network/content/images/2022/06/Staking_blogpost.png" height={150} alt="" />
                             </a>
                             <div className="card-body py-3">
-                                <a href="/" className="mb-2 d-block text-decoration-none" style={{ color: '#e6007a' }}>Polkadot</a>
+                                <a href="/" className="mb-2 d-block text-decoration-none color-E6007">Polkadot</a>
                                 <a href="/" className='text-decoration-none text-black'>
                                     <h5 className='fw-bold'>Introducing the Polkadot Staking Dashboard: The Easiest Way to Nominate and Stake Your DOT</h5>
                                 </a>
@@ -110,7 +110,7 @@ const Hero = () => {
                                 <img className="card-img-top" src="https://polkadot.network/content/images/2022/04/XCMv2--2-.png" height={150} alt="" />
                             </a>
                             <div className="card-body py-3">
-                                <a href="/" className="mb-2 d-block text-decoration-none" style={{ color: '#e6007a' }}>Polkadot</a>
+                                <a href="/" className="mb-2 d-block text-decoration-none color-E6007">Polkadot</a>
                                 <a href="/" className='text-decoration-none text-black'>
                                     <h5 className='fw-bold'>XCMv2 Audit Completed by Quarkslab</h5>
                                 </a>
@@ -126,7 +126,7 @@ const Hero = () => {
                                 <img className="card-img-top" src="https://polkadot.network/content/images/2022/01/Encointer-Blog-Cover-1.jpeg" height={150} alt="" />
                             </a>
                             <div className="card-body py-3">
-                                <a href="/" className="mb-2 d-block text-decoration-none" style={{ color: '#e6007a' }}>Polkadot</a>
+                                <a href="/" className="mb-2 d-block text-decoration-none color-E6007" >Polkadot</a>
                                 <a href="/" className='text-decoration-none text-black'>
                                     <h5 className='fw-bold'>Introducing Encointer: Making Web3 Truly Inclusive</h5>
                                 </a>
@@ -142,7 +142,7 @@ const Hero = () => {
                                 <img className="card-img-top" src="https://polkadot.network/content/images/2021/12/Statemint-1.png" height={150} alt="" />
                             </a>
                             <div className="card-body py-3">
-                                <a href="/" className="mb-2 d-block text-decoration-none" style={{ color: '#e6007a' }}>Polkadot</a>
+                                <a href="/" className="mb-2 d-block text-decoration-none color-E6007">Polkadot</a>
                                 <a href="/" className='text-decoration-none text-black'>
                                     <h5 className='fw-bold'>Polkadot v1.0: Sharding and Economic Security</h5>
                                 </a>
@@ -158,7 +158,7 @@ const Hero = () => {
                                 <img className="card-img-top" src="https://polkadot.network/content/images/2021/12/2021-Roundup.jpg" height={150} alt="" />
                             </a>
                             <div className="card-body py-3">
-                                <a href="/" className="mb-2 d-block text-decoration-none" style={{ color: '#e6007a' }}>Polkadot</a>
+                                <a href="/" className="mb-2 d-block text-decoration-none color-E6007">Polkadot</a>
                                 <a href="/" className='text-decoration-none text-black'>
                                     <h5 className='fw-bold'>Polkadot 2021 Roundup</h5>
                                 </a>
@@ -174,7 +174,7 @@ const Hero = () => {
                                 <img className="card-img-top" src="assests/card-img.png" height={150} alt="" />
                             </a>
                             <div className="card-body py-3">
-                                <a href="/" className="mb-2 d-block text-decoration-none" style={{ color: '#e6007a' }}>Polkadot</a>
+                                <a href="/" className="mb-2 d-block text-decoration-none color-E6007">Polkadot</a>
                                 <a href="/" className='text-decoration-none text-black'>
                                     <h5 className='fw-bold'>Making History, Again: Polkadot Auctions 1-5</h5>
                                 </a>
@@ -190,7 +190,7 @@ const Hero = () => {
                                 <img className="card-img-top" src="https://polkadot.network/content/images/2021/12/Statemint-1.png" height={150} alt="" />
                             </a>
                             <div className="card-body py-3">
-                                <a href="/" className="mb-2 d-block text-decoration-none" style={{ color: '#e6007a' }}>Polkadot</a>
+                                <a href="/" className="mb-2 d-block text-decoration-none color-E6007">Polkadot</a>
                                 <a href="/" className='text-decoration-none text-black'>
                                     <h5 className='fw-bold'>Statemint Becomes First Common Good Parachain on Polkadot</h5>
                                 </a>

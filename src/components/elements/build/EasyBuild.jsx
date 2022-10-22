@@ -2,7 +2,7 @@ import React from 'react'
 
 const EasyBuild = () => {
     return (
-        <div className="eassy-build-section py-3 py-md-5" style={{backgroundColor:'#172026'}}>
+        <div className="eassy-build-section py-3 py-md-5 bg-172026">
             <div className="container py-0 py-md-5">
                 <div className="row justify-content-center text-center mb-4">
                     <div className="col-12 col-md-8">

@@ -7,7 +7,7 @@ const ToGetStart = () => {
     <div class="row justify-content-center py-0 py-md-5">
       <div class="col col-12 text-center">
         <h1 class="mb-4">Want to get started?</h1>
-        <a class="btn btn-subscribe btn-lg" href="/" style={{color:'#E6007A'}}>Build on Polkadot</a>
+        <a class="btn btn-subscribe btn-lg color-E6007A" href="/">Build on Polkadot</a>
       </div>
     </div>
   </div>

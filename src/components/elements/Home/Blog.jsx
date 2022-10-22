@@ -16,7 +16,7 @@ const Blog = () => {
                                 <img className="card-img-top" src="https://polkadot.network/content/images/2022/10/image1.png" height={150} alt="" />
                             </a>
                             <div className="card-body py-3">
-                                <a href="/" className="mb-2 d-block text-decoration-none" style={{color: '#e6007a'}}>Parachain</a>
+                                <a href="/" className="mb-2 d-block text-decoration-none color-E6007A">Parachain</a>
                                 <a href="/" className='text-decoration-none text-black'>
                                     <h5>First Parachain Successfully Migrates from Kusama to Polkadot</h5>
                                 </a>
@@ -38,7 +38,7 @@ const Blog = () => {
                                 <img className="card-img-top" src="https://polkadot.network/content/images/2022/09/004-smol.png" height={150} alt="" />
                             </a>
                             <div className="card-body py-3">
-                                <a href="/" className="mb-2 d-block text-decoration-none" style={{color: '#e6007a'}}>Polkadot</a>
+                                <a href="/" className="mb-2 d-block text-decoration-none color-E6007A">Polkadot</a>
                                 <a href="/" className='text-decoration-none text-black'>
                                     <h5>Polkadot Roadmap Roundup</h5>
                                 </a>
@@ -60,7 +60,7 @@ const Blog = () => {
                                 <img className="card-img-top" src="https://polkadot.network/content/images/2022/08/image1.jpg" height={150} alt="" />
                             </a>
                             <div className="card-body py-3">
-                                <a href="/" className="mb-2 d-block text-decoration-none" style={{color: '#e6007a'}}>Polkadot</a>
+                                <a href="/" className="mb-2 d-block text-decoration-none color-E6007A">Polkadot</a>
                                 <a href="/" className='text-decoration-none text-black'>
                                     <h5>Sub0, the Polkadot Developer Conference, comes to Lisbon in November</h5>
                                 </a>

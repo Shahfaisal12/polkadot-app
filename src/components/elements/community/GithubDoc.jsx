@@ -2,7 +2,7 @@ import React from 'react'
 
 const GithubDoc = () => {
     return (
-        <div className="tech-github-sec pb-3 pb-md-5" style={{ backgroundColor: '#172026' }}>
+        <div className="tech-github-sec pb-3 pb-md-5 bg-172026">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="negative">

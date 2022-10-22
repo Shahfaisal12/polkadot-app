@@ -2,10 +2,10 @@ import React from 'react'
 
 const AnyTypeBlock = () => {
     return (
-        <div className="any-typ-block" style={{backgroundColor:'#172026'}}>
+        <div className="any-typ-block bg-172026">
             <div className="row pt-0">
-                <div className="col-md-8 col-12">
-                    <img src="https://polkadot.network/assets/img/dg-network-xl-2.svg?v=ea608e625d" alt="" className='flex-grow-1' style={{transform: 'scale(1.2)'}} />
+                <div className="col-md-8 col-12 overflow-hidden">
+                    <img src="https://polkadot.network/assets/img/dg-network-xl-2.svg?v=ea608e625d" alt="" style={{transform: 'scale(1.2)'}} />
                 </div>
                 <div className="col-md-4 px-2 pt-4 p-sm-4">
                     <div className="py-md-4 text-white" >

@@ -2,7 +2,7 @@ import React from 'react'
 
 const GroundBreaking = () => {
     return (
-        <div class="ground-breaking-sec py-3 py-md-5" style={{backgroundColor:'#D2067A'}}>
+        <div class="ground-breaking-sec py-3 py-md-5 bg-D2067A">
             <div class="container py-0 py-md-5">
                 <div class="row justify-content-center text-center">
                     <div class="col col-lg-8 pt-0 pb-0 pt-md-5 pb-md-5">

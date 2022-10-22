@@ -2,7 +2,7 @@ import React from 'react'
 
 const Network = () => {
     return (
-        <div className="tech-network-sec py-5" style={{ backgroundColor: '#D1006B' }}>
+        <div className="tech-network-sec py-5 bg-D2067A">
             <div className="container py-5">
                 <div className="row justify-content-center text-center py-5">
                     <div className="col col-lg-7 py-0 py-md-5">

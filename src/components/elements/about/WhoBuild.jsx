@@ -2,7 +2,7 @@ import React from 'react'
 
 const WhoBuild = () => {
     return (
-        <div class="about-who-build-sec py-3 py-md-5" style={{ backgroundColor: '#DC0072' }}>
+        <div class="about-who-build-sec py-3 py-md-5 bg-D2067A">
             <div class="container py-0 py-md-5">
                 <div class="row mb-4 justify-content-around">
                     <div class="col-sm-12 col-lg-5">

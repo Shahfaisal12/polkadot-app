@@ -2,7 +2,7 @@ import React from 'react'
 
 const RoadMap = () => {
   return (
-    <div class="roadmap-section py-3 py-md-5" style={{backgroundColor:'#D2067A'}}>
+    <div class="roadmap-section py-3 py-md-5 bg-D2067A">
   <div class="container py-0 py-md-5">
     <div class="row justify-content-center text-center">
       <div class="col col-lg-8 py-0 py-md-5">

@@ -6,7 +6,7 @@ const SecurityModel = () => {
             <div className="container pt-3">
                 <div className="row justify-content-center align-items-center flex-row-reverse">
                     <div className="col-md-6 col-12 text-center my-3 my-md-5">
-                        <img src="https://polkadot.network/assets/img/dg-security-model.svg?v=ea608e625d" alt="" className="" />
+                        <img src="https://polkadot.network/assets/img/dg-security-model.svg?v=ea608e625d" alt="" />
                     </div>
                     <div className="col-md-6 col-12  my-3 my-md-5">
                         <h2 className="mb-4 fw-bold">A better security model</h2>

@@ -63,7 +63,7 @@ const TrueEconomic = () => {
                 <div className="row justify-content-center pt-3">
                     <div className="col col-12 col-md-6 text-center">
                         <span className="h3 d-block mb-4">Learn more about Polkadot's technology</span>
-                        <a className="btn btn-subscribe btn-lg" style={{color: 'rgb(230, 0, 122)'}} href="/technology">Discover Polkadot</a>
+                        <a className="btn btn-subscribe btn-lg" href="/">Discover Polkadot</a>
                     </div>
                 </div>
             </div>

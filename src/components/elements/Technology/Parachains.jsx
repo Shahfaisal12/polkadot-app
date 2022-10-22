@@ -2,7 +2,7 @@ import React from 'react'
 
 const Parachains = () => {
     return (
-        <div class="para-chain-sec py-3 py-md-5" style={{ backgroundColor: '#172026'}} >
+        <div class="para-chain-sec py-3 py-md-5 bg-172026" >
             <div class="container">
                 <div class="row text-center justify-content-center">
                     <div class="col-12 col-md-10 col-lg-8">
