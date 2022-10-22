@@ -13,7 +13,7 @@ const Header = () => {
               <div className="collapse navbar-collapse" id="navbarNavDarkDropdown">
                 <ul className="navbar-nav">
                   <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle text-uppercase" href="/" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle text-uppercase fw-bold" href="/" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       en
                     </a>
                     <ul className="dropdown-menu dropdown-menu-dark bg-white" aria-labelledby="navbarDarkDropdownMenuLink">
@@ -45,7 +45,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-      <nav className="navbar navbar-expand-lg navbar-light navbar-below">
+      <nav id="navbar_top" className="navbar navbar-expand-lg navbar-light navbar-below">
         <div className="container">
           <a className="navbar-brand" href="/">
             <img className="img-fluid"
