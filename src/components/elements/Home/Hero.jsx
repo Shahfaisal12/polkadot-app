@@ -1,5 +1,5 @@
 import React from "react";
-import { ScrollRotate } from 'react-scroll-rotate';
+// import { ScrollRotate } from 'react-scroll-rotate';
 
 
 const Hero = () => {
@@ -20,14 +20,14 @@ const Hero = () => {
             </div>
           </div>
           <div className="col-md-6 col-12 d-flex align-items-center justify-content-center order-1 order-md-2">
-            <ScrollRotate>
+            {/* <ScrollRotate> */}
               <div className="main-container-image d-flex align-items-center justify-content-center">
 
                 <img src="https://polkadot.network/assets/img/hero/xcm-animation-inner.png?v=ea608e625d" className="img-rotation" alt="" />
                 <img src="https://polkadot.network/assets/img/hero/xcm-animation-outer.svg?v=ea608e625d" className="img-dots position-absolute" alt="" />
 
               </div>
-            </ScrollRotate>
+            {/* </ScrollRotate> */}
           </div>
         </div>
       </div>
