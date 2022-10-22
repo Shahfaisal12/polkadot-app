@@ -5,15 +5,15 @@
 ////////////////////    COLORS   /////////////////////////////@at-root
 
 .color-E6007A {
-  color: #e6007a;
+  color: #e6007a !important;
 }
 
 .bg-172026 {
-  background-color: #172026;
+  background-color: #172026 !important;
 }
 
 .bg-D2067A {
-  background-color: #d2067a;
+  background-color: #d2067a !important;
 }
 
 /////////////////////////////  Header / Nabvbar ///////////////////////////////////////
@@ -41,6 +41,7 @@
     }
     .list-social-links {
       a {
+        display: flex;
         border-radius: 50%;
         background: transparent !important;
         border: 1px solid #000000;
@@ -58,6 +59,18 @@
 }
 .navbar-below ul {
   li {
+    display: inline-block;
+    position: relative;
+    &:hover:before {
+      content: "";
+      position: absolute;
+      top: -5px;
+      background: #e6007a;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      left:calc(50% - 8px);
+  }
     a {
       padding: 0rem 1.3rem 0rem 1.3rem !important;
     }
@@ -136,6 +149,7 @@
 
 .underline {
   border-bottom: 2px solid #e6007a;
+  color: #000000 !important;
   text-decoration: none;
   color: #000000;
   padding-bottom: 1px;
