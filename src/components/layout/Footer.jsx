@@ -74,7 +74,7 @@ const Footer = () => {
               <div className="footer-logo">
                 <img
                   src="https://polkadot.network/assets/img/logo-polkadot-light.svg?v=ea608e625d"
-                  className="img-fluid"
+                  className="img-fluid footer-logo-img"
                   alt="footer logo"
                 />
               </div>

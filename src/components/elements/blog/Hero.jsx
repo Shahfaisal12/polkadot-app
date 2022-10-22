@@ -200,7 +200,16 @@ const Hero = () => {
                             </div>
                         </div>
                     </div>
-
+                </div>
+                <div class="row justify-content-center mt-3">
+                    <div class="col-auto">
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination">
+                                <li class="page-item"><span class="page-link disabled">Page 1 of 10</span></li>
+                                <li class="page-item"><a class="page-link page-nav-hover" href="/">Next</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>

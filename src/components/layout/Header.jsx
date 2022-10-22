@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <nav class="navbar navbar--secondary navbar-expand-lg navbar-light bg-white border-bottom">
+      <nav class="navbar navbar--secondary navbar-expand-lg navbar-light bg-white border-bottom d-none d-md-block">
         <div className="container">
           <div className="navbar-collapse justify-content-between collapse show">
             <div className="d-flex justify-content-end justify-content-lg-start pt-1 pt-md-0 order-2 order-lg-1">
@@ -74,7 +74,8 @@ const Header = () => {
                 <Link
                   className="nav-link active"
                   aria-current="page"
-                  to='/technology'
+                  to='/technology' 
+                  style={{duration:'0.269373s'}}
                 >
                   Technology
                 </Link>

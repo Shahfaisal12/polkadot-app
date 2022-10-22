@@ -11,7 +11,7 @@ const GetInTouch = () => {
                 </div>
                 <div className="row justify-content-center mt-4">
                     <div className="col-md-7 col-xl-4 pt-lg-0">
-                        <div className="card bg-white card-pill shadow-lg rounded-lg">
+                        <div className="card bg-white card-pill shadow-lg rounded-lg mb-4">
                             <div className="card-body py-2 pr-0">
                                 <div className="d-flex align-items-center">
                                     <img src="https://polkadot.network/assets/img/logos/logo-circle-chat.svg?v=ea608e625d" width={50} alt="" />
@@ -24,7 +24,7 @@ const GetInTouch = () => {
                         </div>
                     </div>
                     <div className="col-md-7 col-xl-4 pt-lg-0">
-                        <div className="card bg-white shadow-lg card-pill rounded-lg">
+                        <div className="card bg-white shadow-lg card-pill rounded-lg mb-4">
                             <div className="card-body py-2 pr-0">
                                 <div className="d-flex align-items-center">
                                     <img src="https://polkadot.network/assets/img/logos/logo-circle-newsletter.svg?v=ea608e625d" width={50} alt="" />
@@ -37,7 +37,7 @@ const GetInTouch = () => {
                         </div>
                     </div>
                     <div className="col-md-7 col-xl-4 pt-lg-0">
-                        <div className="card bg-white card-pill shadow-lg rounded-lg">
+                        <div className="card bg-white card-pill shadow-lg rounded-lg mb-4">
                             <div className="card-body py-2 pr-0">
                                 <div className="d-flex align-items-center">
                                     <a href="/"> <img src="https://polkadot.network/assets/img/logos/logo-circle-email.svg?v=ea608e625d" width={50} alt="" /></a>

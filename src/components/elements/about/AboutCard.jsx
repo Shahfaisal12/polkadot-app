@@ -8,7 +8,7 @@ const AboutCard = () => {
                     <div className="card-negative-top">
                         <div className="row top-negative">
                             <div className="col-md-4 col-12">
-                                <div className="card border-0 shadow-lg rounded-lg" style={{ minHeight: '415px' }}>
+                                <div className="card border-0 shadow-lg rounded-lg mb-4 mb-md-0">
                                     <div className="card-body">
                                         <h5 className="mb-0 fw-bold">Robert Habermeier</h5>
                                         <span>Founder</span>
@@ -17,7 +17,7 @@ const AboutCard = () => {
                                 </div>
                             </div>
                             <div className="col-md-4 col-12">
-                                <div className="card border-0 shadow-lg rounded-lg" style={{ minHeight: '415px' }}>
+                                <div className="card border-0 shadow-lg rounded-lg mb-4 mb-md-0">
                                     <div className="card-body">
                                         <h5 className="mb-0 fw-bold">Dr. Gavin Wood</h5>
                                         <span>Founder</span>
@@ -26,7 +26,7 @@ const AboutCard = () => {
                                 </div>
                             </div>
                             <div className="col-md-4 col-12">
-                                <div className="card border-0 shadow-lg rounded-lg" style={{ minHeight: '415px' }}>
+                                <div className="card border-0 shadow-lg rounded-lg mb-4 mb-md-0">
                                     <div className="card-body">
                                         <h5 className="mb-0 fw-bold">Peter Czaban</h5>
                                         <span>Founder</span>
