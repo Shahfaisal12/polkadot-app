@@ -104,7 +104,7 @@ const cardItem = [{
 }]
 
 
-const Hero = () => {
+const PaginationPage = () => {
 
     // Used Page Nevigation
     const [page, setPage] = React.useState(0);
@@ -176,4 +176,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default PaginationPage
