@@ -11,7 +11,7 @@ const Blog = () => {
                 </div>
                 <div className="row">
                     <div className="col-12 col-md-6 col-lg-4 d-flex">
-                        <div className="card border shadow">
+                        <div className="card border shadow mb-4 mb-md-0">
                             <a href="/">
                                 <img className="card-img-top" src="https://polkadot.network/content/images/2022/10/image1.png" height={150} alt="" />
                             </a>
@@ -33,7 +33,7 @@ const Blog = () => {
                         </div>
                     </div>
                     <div className="col-12 col-md-6 col-lg-4 d-flex">
-                        <div className="card border shadow">
+                        <div className="card border shadow mb-4 mb-md-0">
                             <a href="/" className='text-decoration-none' >
                                 <img className="card-img-top" src="https://polkadot.network/content/images/2022/09/004-smol.png" height={150} alt="" />
                             </a>
@@ -55,7 +55,7 @@ const Blog = () => {
                         </div>
                     </div>
                     <div className="col-12 col-md-6 col-lg-4 d-flex">
-                        <div className="card border shadow">
+                        <div className="card border shadow mb-4 mb-md-0">
                             <a href="/">
                                 <img className="card-img-top" src="https://polkadot.network/content/images/2022/08/image1.jpg" height={150} alt="" />
                             </a>

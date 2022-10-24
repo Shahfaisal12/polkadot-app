@@ -15,7 +15,7 @@ const Blog = () => {
                             <a href="/">
                                 <img className="card-img-top" src="https://polkadot.network/content/images/2022/10/image1.png" height={150} alt="" />
                             </a>
-                            <div className="card-body py-3">
+                            <div className="card-body my-3">
                                 <a href="/" className="mb-2 d-block text-decoration-none color-E6007A">Parachain</a>
                                 <a href="/" className='text-decoration-none text-black'>
                                     <h5>First Parachain Successfully Migrates from Kusama to Polkadot</h5>
