@@ -21,11 +21,11 @@ const Hero = () => {
           </div>
           <div className="col-md-6 col-12 d-flex align-items-center justify-content-center order-1 order-md-2">
             <div className='position-absolute'>
-              <ScrollRotate from={180} to={90} animationDuration={10} loops={1}>
+              <ScrollRotate from={180} to={90} animationDuration={5} loops={1}>
                 <img src="https://polkadot.network/assets/img/hero/xcm-animation-inner.png?v=ea608e625d" className="img-rotation" alt="" />
               </ScrollRotate>
             </div>
-            <ScrollRotate from={90} to={0} animationDuration={10} loops={1}>
+            <ScrollRotate from={90} to={0} animationDuration={5} loops={1}>
               <img src="https://polkadot.network/assets/img/hero/xcm-animation-outer.svg?v=ea608e625d" className="img-dots" alt="" />
             </ScrollRotate>
           </div>
