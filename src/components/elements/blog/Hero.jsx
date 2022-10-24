@@ -124,7 +124,7 @@ const Hero = () => {
         <div className="blog-hero-section py-3 py-md-5">
             <div className="container pb-0 pb-md-5">
                 <div className="row pb-3 pb-md-5">
-                    <h1 className="text-center display-3 fw-bold aos-init aos-animate" data-aos="fade-up">Polkadot blog</h1>
+                    <h1 className="text-center display-3 fw-bold" data-aos="fade-up">Polkadot blog</h1>
                 </div>
                 <div className="row pt-0 pt-md-5">
                     {cardItem
