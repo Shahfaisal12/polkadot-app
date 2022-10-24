@@ -25,7 +25,7 @@ const BecomeValidate = () => {
                     <div className="col-md-6">
                         <article>
                             <h5>2. Apply to validate</h5>
-                            <p>New validators will be chosen every 24 hours on mainnet. You’ll need to create separate accounts for Controller, Session, and Stash keys on the Polkadot UI (<a href="/" target="_blank" className="underline">https://polkadot.js.org/apps/#/accounts/create</a>). These accounts will be used to represent and control the validator node you just set up.</p>
+                            <p>New validators will be chosen every 24 hours on mainnet. You’ll need to create separate accounts for Controller, Session, and Stash keys on the Polkadot UI (<a href="/" target="_blank" className="underline text-break">https://polkadot.js.org/apps/#/accounts/create</a>). These accounts will be used to represent and control the validator node you just set up.</p>
                             <p>Next you will need to get some DOT from the faucet or by asking on Element. Assuming you have more DOT than the lowest staked validator or there is an open validator slot, you can register to be staked. A step-by-step guide demonstrating how to set up your accounts and bond your DOT is available on the <a href="/" target="_blank" className="underline">wiki</a>.</p>
                         </article>
                     </div>
