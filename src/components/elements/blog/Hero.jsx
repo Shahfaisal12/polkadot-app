@@ -169,6 +169,7 @@ const Hero = () => {
                 count={cardItem.length}
                 rowsPerPage={rowsPerPage}
                 page={page}
+                color="secondary"
                 onPageChange={handleChangePage}
                 onRowsPerPageChange={handleChangeRowsPerPage}
             />

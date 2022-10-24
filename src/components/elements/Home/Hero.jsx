@@ -20,14 +20,14 @@ const Hero = () => {
             </div>
           </div>
           <div className="col-md-6 col-12 d-flex align-items-center justify-content-center order-1 order-md-2">
-            <ScrollRotate>
-              <div className="main-container-image d-flex align-items-center justify-content-center">
-
+            <div  className='position-absolute'>
+              <ScrollRotate from={180} to={90}>
                 <img src="https://polkadot.network/assets/img/hero/xcm-animation-inner.png?v=ea608e625d" className="img-rotation" alt="" />
-                <img src="https://polkadot.network/assets/img/hero/xcm-animation-outer.svg?v=ea608e625d" className="img-dots position-absolute" alt="" />
-
+              </ScrollRotate>
               </div>
-            </ScrollRotate>
+              <ScrollRotate from={90} to={0}>
+                <img src="https://polkadot.network/assets/img/hero/xcm-animation-outer.svg?v=ea608e625d" className="img-dots" alt="" />
+              </ScrollRotate>
           </div>
         </div>
       </div>
